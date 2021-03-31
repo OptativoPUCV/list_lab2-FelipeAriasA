@@ -104,8 +104,7 @@ void * popBack(List * list) {
 void * popCurrent(List * list) {
   const void* aux=list->current->data;
   if(list->current == list->head){
-    list->current->next->next=list->current->next->next->next;
-    list->head=list->current->next;
+    list->head=list->head->next;
     list->head->prev=NULL;
   }else if(list->current == list->tail){
     list->tail=list->current->prev;
