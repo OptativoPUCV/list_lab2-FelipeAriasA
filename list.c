@@ -85,6 +85,7 @@ void pushCurrent(List * list, const void * data) {
   }
   if(nodo->next == NULL){
     list->tail=nodo;
+    list->tail->prev=list->current;
   }
 }
 
