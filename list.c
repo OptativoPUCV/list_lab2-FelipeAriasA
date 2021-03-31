@@ -29,6 +29,10 @@ Node * createNode(const void * data) {
 }
 
 List * createList() {
+    List* lista=calloc(1,sizeof(List));
+    lista->head=NULL;
+    lista->current=NULL;
+    lista->tail=NULL;
      return NULL;
 }
 
