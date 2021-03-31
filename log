@@ -109,3 +109,9 @@ Wed Mar 31 01:48:05 UTC 2021:
  tests:  10|2
 total_score: 45/70
 5fbc8c1
+Wed Mar 31 02:02:25 UTC 2021: 
+ list.c | 3 +++
+ 1 file changed, 3 insertions(+)
+ tests:  10|2
+total_score: 45/70
+900df3d
