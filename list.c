@@ -42,9 +42,9 @@ void * firstList(List * list) {
 }
 
 void * nextList(List * list) {
-    list->current=list->current->next;
     if(list->current && list->current->next !=NULL){
-    return (void*)list->current->data;
+      list->current=list->current->next;
+      return (void*)list->current->data;
     }else{
       return NULL;
     }
